@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px;}
+.clear{ clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+body{ font-family:Arial, Helvetica, sans-serif; font-size:15px;}
+.header{ background-image:url(../images/top-bg.png); height:113px;}
+.logo{}
+.logo a{  background-image: url("../images/logo.png");
+    display: block;
+    margin: 5px 0;
+    padding: 51px 55px;}
+	.wrapper1{ width:960px; margin:0px auto;}
+#wrapper{ width:960px; margin:0px auto;}
+.nav{ margin-top:40px;}
+.nav ul{}
+.nav ul li{ color: white;
+    float: left;
+    list-style: none outside none;}
+.nav ul li a{ color: white;
+    margin: 19px;
+    padding: 40px 15px 56px;
+    text-decoration: none; font-size:15px;}
+	.nav ul li a:hover{color:#96c120;}
+	.content{}
+	.shoppers{ color:#88a101; font-size:18px !important}
+	.shoppers img{vertical-align: middle;}
+	.shoppers section{ background:#f3f3f3; padding:10px 100px 35px 25px; border-radius:5px;}
+	.shoppers section h2{  color: #FFC90E;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;}
+	.shoppers ul{ margin-bottom:22px;}
+	.shoppers ul li{ color: #666666;
+    font-size: 15px;
+    line-height: 30px;
+    list-style: none outside none;}
+	.shoppers section a{ background: none repeat scroll 0 0 silver;
+    border-radius: 5px 5px 5px 5px;
+    padding:9px 20px;
+    text-decoration: none; color:#00a8d6; border:1px solid gray;}
+	.shoppers section a:hover{ background:#333; color:white;}
+	.campaign{ color:#88a101; font-size:18px !important; margin-left:60px;}
+	.campaign big{display:block; margin:20px 0;}
+	.campaign ul{margin-bottom:22px;}
+	.campaign ul li{color: #666666;
+    font-size: 15px;
+    line-height: 30px;
+    list-style: none outside none;}
+	.campaign ul li span{ font-weight:bold;}
+	.campaign a{ background:url(../images/ready-for-campaign.png);
+    border-radius: 5px 5px 5px 5px;
+    padding:15px 40px;
+    text-decoration: none; color:#fff; border:1px solid gray;}
+	.campaign a:hover{ color:#CCC;}
+	.content1{}
+	
+	.merchants{ color:#88a101; font-size:18px !important}
+	.merchants span{ color:#666;}
+	.merchants big{ display:block; margin:10px;}
+	.merchants img{vertical-align: middle; margin-right:10px;}
+	.merchants section{ background:#f3f3f3; padding:10px 100px 35px 25px; border-radius:5px;}
+	.merchants section h2{  color: #FFC90E;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;}
+	.merchants ul{ margin-bottom:22px;}
+	.merchants ul li{ color: #666666;
+    font-size: 15px;
+    line-height: 30px;
+    list-style: none outside none;}
+	.merchants section a{ background: none repeat scroll 0 0 silver;
+    border-radius: 5px 5px 5px 5px;
+    padding:9px 20px;
+    text-decoration: none; color:#00a8d6; border:1px solid gray;}
+	.merchants section a:hover{ background:#333; color:white;}
+	.app{ color:#88a101; font-size:18px !important; margin-left:35px; width:417px;}
+	.app big{display:block; margin:12px 0;}
+	.app section{}
+	.on-site{ background:url(../images/on-site.png); display: block;
+    height: 44px;
+    width: 175px; float:left}
+	.apple{ background: url("../images/app-store.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 44px;
+    width: 175px; float:left}
+	.app h5{ color: #71A817;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 127px;
+    padding-top: 10px; margin-right:15px; margin-top:30px;}
+	.app img{ margin: 10px 112px;
+    width: 150px;}
+	.news{ background:#f3f3f3; padding:15px 20px; margin-top:25px; border-radius:5px;}
+	.signup{}
+	.signup h5{ font-size:25px; font-weight:normal; color:#88a101;}
+	.signup ul{ margin:10px 0; width:500px;}
+	.signup li{ font-size:15px; color:#555; list-style:none; line-height:26px; margin:10px 0;}
+	.shadow{ margin:0 10px;}
+	.whats-new{ border-radius:5px; border:2px solid silver; background:#edeaea;}
+	.whats-new h4{ background: url("../images/news-bg.png") repeat scroll 0 0 transparent;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 14px;
+    text-align: center;
+    width: 308px;}
+	.whats-new span{ color: #666666;
+    display: block;
+    font-size: 20px;
+    margin: 25px;}
+	.whats-new span p{border-left: 2px solid #666666;
+    color: silver;
+    display: inline;
+    font-size: 17px;
+    margin: 0 20px;
+    padding: 8px 20px;}
+	.whats-new small{color: #999898;
+    display: block;
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+    width: 246px;}
+	.whats-new b{}
+	.whats-new b img{display: block;
+    margin: 0 auto;
+    padding: 15px;}
+	.whats-new a{background: url("../images/btn-bg.png") repeat scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 30%;
+    padding: 7px 20px;}
+	.footer{
+    background: none repeat scroll 0 0 #F3F3F3;
+    margin-top: 20px;
+    width: 100%;}
+	.footer p{}
+	.footer p span{ float:left}
+	.one, .two, .three, .four{ background:none repeat scroll 0 0 #fff;
+    border: 1px solid silver;
+    border-radius: 5px 5px 5px 5px;
+    margin: 20px 5px;
+    padding: 10px;
+    width: 203px; min-height:100px;
+}
+	
+	.one ul{}
+	.one ul li{}
+	.one span{ color:gray; margin:2px 0;}
+	.one span input{ width:150px;}
+	.one a{ background: none repeat scroll 0 0 silver;
+    border: 1px solid;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 0px 0 5px;
+    padding: 4px;}
+	
+	.two ul{}
+	.two ul li{ color:gray; margin:3px 0}
+	.three img{ vertical-align:sub; margin-right:10px;}
+	.three ul{}
+	.three ul li{color:gray;margin:3px 0 }
+	.three ul li a{}
+	
+	.four ul{}
+	.four ul li{color:gray;margin:3px 0 }
+	.radio{ width:20px !important;}
+	#fourth{ color: gray;
+    padding: 10px;}
+	.fourth{}
+	.fourth h5{ font-size: 50px;
+    font-weight: normal;
+    padding: 70px 15px 30px;}
+	.fourth span{ font-size:25px;}
+	.fourth p{ line-height: 30px;
+    margin: 10px 0;}
+	.primary-c{ width:410px; margin:30px 0 0;}
+	.primary-c blockquote{ padding:5px 0 30px; background:url("../images/divider.png") no-repeat scroll left bottom transparent}
+	.primary-c span{ font-size:25px;}
+	.primary-c p{ margin:0}
+	.primary-c p small{ font-size:10px;}
+	.primary-c p a{ color: gray;}
+	
+	.secondary-c{ width:450px; margin: 30px 0 0;}
+	.secondary-c form{ padding:5px 0 30px;}
+	.secondary-c span{font-size:25px;}
+	.secondary-c label{display: block;
+    margin: 7px 0;}
+	.secondary-c input{border: 1px solid silver;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    padding: 7px;
+    width: 200px; margin-bottom: 20px;}
+	.secondary-c a{background:url("../images/btn-bg.png") repeat scroll 0 0 transparent;
+    border: 1px solid silver;
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    padding: 7px 20px;
+    text-decoration: none; margin-top:20px;}
+	
